@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        *{
+            font-weight: bold;
+        }
+        body{
+            background-color: rgba(238, 77, 13, 0.945);
+            color:rgb(255, 250, 250);
+             }
+        form{
+            margin: 0 auto;
+            width: 45%;
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+            border-left: transparent;
+            border-right: transparent;
+            border-style: double;
+            border-radius: 15px;
+            height: auto;
+            font-size: 15px;
+             margin-top: 4%;
+             font-weight: bold;
+
+         }
+         h2{
+             margin-top: 30px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif ;
+         }
+         label {
+                display: inline-block;
+                text-align: right;
+                width: 40%;
+                margin-top: 20px;
+                margin : 15px;
+                border:  hidden ;
+                }
+         input {
+            padding: 5px;
+            border:  hidden ;
+           
+         }
+         button {
+                margin-top: 20px;
+                border-radius: 3px;
+                padding: 5px;
+                width: 25%;
+                color: rgb(248, 89, 16);
+                font-family: Verdana, Geneva, Tahoma, sans-serif ;
+                border:  hidden ;
+                }
+            .btn{
+                text-align: right;
+                margin-right: 45px;
+                margin-bottom: 10px;
+               
+            }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form class="form-horizontal">
+            <h1>Create Your Account</h1>
+             <div>
+                <label for="name">Enter Name : </label>
+                <input  type="text" placeholder="Enter user here">
+            </div>
+			<div>
+                <label for="name">Enter Email : </label>
+                <input  type="text" placeholder="Enter Email ID here">
+            </div>
+            <div>
+                <label for="age">Age : </label>
+                <input  type="number" placeholder="Age">
+            </div>
+            <div>
+                <label for="birthdate">Birthdate: </label>
+                <input type="date" id="birthday" name="birthday">
+             </div>
+             <div>
+       
+                <label for="Qualification">Graduated in: </label>
+                
+                <select type="">
+                    <option value="">B-tech</option>
+                        <option value="">M-tech</option>
+                            <option value="">BCA</option>
+                                <option value="">MCA</option>
+            </select>
+            <div>
+        
+                <label for="phone">Phone: </label>
+                <input type="number" placeholder="Phone">
+             
+            </div>
+            <div>
+       
+                <label for="userName">Enter User Name: </label>
+                <input type="text" placeholder="Enter username here">
+             
+            </div>
+            <div>
+       
+                <label for="pasw">Enter Password: </label>
+                <input type="text" placeholder="Enter password here">
+            
+            </div>
+
+            <div>
+        
+           <label for="confirm pass">Enter Confirm Password: </label>
+           <input type="text" placeholder="Enter password here">
+        
+       </div>
+       <div class="btn">
+       <button>Clear Form</button>
+    <button>Create Account</button>
+            </div>
+         </form>
+    </div>
+</body>
+</html>
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGM4ZWQ0MTEtZmZhNS00MDlkLWI5YzMtZjY3ZGZkMjI1MTk0%40thread.v2/0?context=%7b%22Tid%22%3a%22f05cf28c-208e-4f41-bb7d-64141a37a2f9%22%2c%22Oid%22%3a%222436cdd3-5179-4806-b76f-f1352280a9dc%22%7d
